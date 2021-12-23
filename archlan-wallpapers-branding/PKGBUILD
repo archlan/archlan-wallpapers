@@ -1,0 +1,25 @@
+# Maintainer: Lanhild <archlan@pm.me>
+
+pkgname=archlan-wallpapers-branding
+pkgver=1.0
+pkgrel=1
+pkgdesc="Branded wallpapers of ArchLan"
+url="https://github.com/archlan/archlan-wallpapers"
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=()
+conflicts=()
+groups=(archlan-wallpapers)
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../files/. ${srcdir}
+}
+
+package() {
+	local _bgdir=${pkgdir}/usr/share/backgrounds/archlan
+	mkdir -p "$_bgdir"
+	cp -r ${srcdir}/* "$_bgdir"
+}
