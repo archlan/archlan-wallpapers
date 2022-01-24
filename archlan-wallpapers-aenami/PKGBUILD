@@ -6,16 +6,16 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/08 19:44:50 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/24 16:56:11 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/24 16:55:58 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Maintainer: Lanhild <archlan@pm.me>
 
-pkgname=archlan-wallpapers-branding
+pkgname=archlan-wallpapers-aenami
 pkgver=1.0
-pkgrel=3
-pkgdesc="Branded wallpapers of ArchLan"
+pkgrel=1
+pkgdesc="Aenami wallpapers for ArchLan"
 url="https://github.com/archlan/archlan-wallpapers"
 arch=('any')
 license=('GPL3')
