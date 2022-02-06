@@ -6,15 +6,15 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/08 19:44:50 by Lanhild           #+#    #+#              #
-#    Updated: 2022/02/06 18:30:36 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/02/06 18:30:21 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Maintainer: Lanhild <archlan@pm.me>
 
-pkgname=archlan-wallpapers-aenami
+pkgname=archlan-wallpapers-misc
 pkgver=1.0
-pkgrel=2
+pkgrel=1
 pkgdesc="Aenami wallpapers for ArchLan"
 url="https://github.com/archlan/archlan-wallpapers"
 arch=('any')

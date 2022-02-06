@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/08 19:44:50 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/24 16:56:11 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/02/06 18:30:28 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 
 pkgname=archlan-wallpapers-branding
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Branded wallpapers of ArchLan"
 url="https://github.com/archlan/archlan-wallpapers"
 arch=('any')
@@ -33,5 +33,5 @@ prepare() {
 package() {
 	local _bgdir=${pkgdir}/usr/share/backgrounds/archlan
 	mkdir -p "$_bgdir"
-	cp -r ${srcdir}/* "$_bgdir"
+	cp -rf ${srcdir}/* "$_bgdir"
 }
