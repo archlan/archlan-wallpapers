@@ -14,7 +14,7 @@
 
 pkgname=archlan-wallpapers-misc
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Aenami wallpapers for ArchLan"
 url="https://github.com/archlan/archlan-wallpapers"
 arch=('any')
